@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/btn_tcp_connect"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="进行TCP连接" />
+    <Button
+        android:id="@+id/btn_udp_connect"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="进行UDP连接" />
+
+    <EditText
+        android:id="@+id/et_transport_data"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btn_transport_tcpData"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="进行TCP传输" />
+
+    <Button
+        android:id="@+id/btn_transport_udpData"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="进行UDP传输" />
+
+    <TextView
+        android:id="@+id/tv_receive_data"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>
